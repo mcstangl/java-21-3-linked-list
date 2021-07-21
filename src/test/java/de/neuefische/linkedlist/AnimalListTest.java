@@ -96,7 +96,7 @@ class AnimalListTest {
         String actual = animalList.toString();
 
         //Then
-        String expected = "Bird -> ";
+        String expected = "Bird";
         assertEquals(expected, actual);
     }
 }
